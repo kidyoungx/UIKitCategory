@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+DebugDealloc.h"
-//#import "NSObject+CCCategory.h"
+#import <NSObject+CCCategory.h>
 
 @implementation UIViewController (DebugDealloc)
 

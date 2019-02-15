@@ -7,7 +7,7 @@
 //
 
 #import "UIFont+CCCategory.h"
-#import "NSObject+CCCategory.h"
+#import <NSObject+CCCategory.h>
 
 @implementation UIFont (CCCategory)
 

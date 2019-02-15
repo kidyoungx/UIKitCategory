@@ -202,7 +202,7 @@ IB_DESIGNABLE
     if (animated) {
         CAKeyframeAnimation *keyframeAnimation = 
         [CAKeyframeAnimation animationWithKeyPath:@"transform"];
-        keyframeAnimation.delegate = self;
+        keyframeAnimation.delegate = id<CAAnimationDelegate>self;
         keyframeAnimation.removedOnCompletion = NO;
         NSMutableArray *mutableArray = [NSMutableArray array];
         NSValue *value;
