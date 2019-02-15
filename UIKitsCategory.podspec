@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "UIKitCategory"
+  spec.name         = "UIKitsCategory"
   spec.version      = "1.0.1"
   spec.summary      = "iOS UIKit Category."
 
