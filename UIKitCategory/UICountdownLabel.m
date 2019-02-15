@@ -62,7 +62,7 @@
 - (void)updateCountdownValue
 {
     NSInteger nextValue = self.text.integerValue - 1;
-    self.text = [NSString stringWithFormat:@"%d", nextValue];
+    self.text = [NSString stringWithFormat:@"%ld", nextValue];
     if (nextValue == 0) {
         [self removeFromSuperview];
     }
