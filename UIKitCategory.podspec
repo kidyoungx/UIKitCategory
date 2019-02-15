@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
                         iOS UIKit Category. Such as UIColor, UIView, CALayer.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/UIKitCategory"
+  spec.homepage     = "https://github.com/kidyoungx/UIKitCategory"
 
   spec.license      = "MPL-2.0"
 

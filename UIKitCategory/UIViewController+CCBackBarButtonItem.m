@@ -12,7 +12,7 @@
 @implementation UIViewController (CCBackBarButtonItem)
 
 - (void)customizeBackBarButtonItem {
-#warning may be another better way
+//#warning may be another better way
     UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] init];
     barButtonItem.title = @" ";
 //    /*
