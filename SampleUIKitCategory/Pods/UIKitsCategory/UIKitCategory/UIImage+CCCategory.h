@@ -36,6 +36,8 @@
 - (UIImage *)grayImage;
 - (UIImage *)grayscaleImage;
 
+- (UIImage *)imageWithTintColor:(UIColor *)tintColor;
+
 @end
 
 @interface UIImage (Generation)

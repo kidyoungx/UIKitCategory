@@ -202,10 +202,26 @@ typedef enum {
     // Apply the source image's alpha
     [self drawInRect:imageRect blendMode:kCGBlendModeDestinationIn alpha:1.0f];
 
-    UIImage* grayscaleImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIImage *grayscaleImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
     return grayscaleImage;
+}
+
+- (UIImage *)imageWithTintColor:(UIColor *)tintColor
+{
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, self.scale);
+    CGRect imageRect = CGRectMake(0.0f, 0.0f, self.size.width, self.size.height);
+
+    [tintColor setFill];
+    UIRectFill(imageRect);
+
+    [self drawInRect:imageRect blendMode:kCGBlendModeOverlay alpha:1.0f];
+
+    UIImage *tintedImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return tintedImage;
 }
 
 @end

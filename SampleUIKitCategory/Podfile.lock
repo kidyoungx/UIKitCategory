@@ -1,6 +1,6 @@
 PODS:
   - FoundationCategory (1.0.2)
-  - UIKitsCategory (1.0.1):
+  - UIKitsCategory (1.0.2):
     - FoundationCategory (~> 1.0.1)
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   FoundationCategory: 775ecb483ec2cea6a9cbb1aaf3313da05f602a5e
-  UIKitsCategory: d82380f549d5ac030d2e546b4ed4f28c328f2ba7
+  UIKitsCategory: bd403329674602b3971e2bd7808e6a5fd1c2f43d
 
 PODFILE CHECKSUM: 66cba0d2f7e43672b14cb927fbbe7cd10d7f49b0
 
